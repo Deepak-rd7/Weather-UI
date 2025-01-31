@@ -1,0 +1,23 @@
+body {
+    background: #e3f2fd;
+}
+.card {
+    background: linear-gradient(135deg, #3b82f6, #1e40af);
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+.search-container {
+    position: relative;
+}
+.search-container input {
+    padding-right: 40px;
+}
+.search-container i {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: gray;
+    cursor: pointer;
+}
